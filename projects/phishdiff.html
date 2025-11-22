@@ -1,35 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PhishDiff — Project Details</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="navbar">
     <div class="container">
       <h1 class="logo">MK</h1>
       <nav>
-        <a href="../index.html">← Back to Home</a>
+        <ul class="nav-links">
+          <li><a href="../index.html#projects">← Back to Projects</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
   <section class="section">
     <div class="container">
-      <h2>PhishDiff — AI-Based Phishing Detection Tool</h2>
-      <p><strong>Tools Used:</strong> Python, FastAPI, OSINT, Machine Learning</p>
-
-      <h3>Outcome</h3>
-      <p>Developed a phishing detection system that analyzed sender details, content, and URLs. Produced explainable outputs that helped users understand why an email was flagged, improving analyst confidence and reducing false positives.</p>
-
-      <h3>What I Learned</h3>
+      <h2>PhishDiff</h2>
+      <p><strong>Overview:</strong> AI-based phishing detection tool using Python, FastAPI, and OSINT techniques.</p>
+      <p><strong>Tech Stack:</strong> Python, FastAPI, BeautifulSoup, Regex, GitHub Pages</p>
+      <p><strong>Key Features:</strong></p>
       <ul>
-        <li>Explainability is as important as accuracy in security tools.</li>
-        <li>OSINT enrichment adds valuable context but needs caching to avoid delays.</li>
-        <li>Clear documentation makes technical tools more accessible to non-technical users.</li>
+        <li>Analyzes suspicious emails and URLs using OSINT sources</li>
+        <li>Compares phishing indicators across domains</li>
+        <li>FastAPI backend with clean JSON output</li>
+        <li>Deployed on GitHub Pages for demo</li>
       </ul>
+      <p><strong>Role:</strong> Sole developer — designed, built, and documented the tool</p>
+      <p><strong>Outcome:</strong> Used in mock SOC scenarios and shared with peers for feedback</p>
     </div>
   </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Mehakpreet Kaur Thind</p>
+    </div>
+  </footer>
 </body>
 </html>
